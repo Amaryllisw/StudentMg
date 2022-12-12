@@ -1,0 +1,118 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: var(--background-color);
+}
+
+input {
+    outline: 0;
+    border: none;
+}
+
+.center-box {
+    width: 420px;
+    height: 480px;
+    padding: 40px;
+    color: #343a40;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.title-box {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.title-box h2 {
+    position: relative;
+}
+
+.center-box:hover .title-box h2::after {
+    transition: all .2s;
+    width: 100%;
+}
+
+
+.title-box h2::after {
+    transition: all .2s;
+    position: absolute;
+    content: "";
+    height: 6px;
+    width: 50%;
+    bottom: -45%;
+    border-radius: 8px;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    background-color: var(--blue-color);
+}
+
+.input-box {
+    margin-top:40px;
+    overflow: hidden;
+}
+
+.input-wrapper > label {
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+.input-wrapper > label p {
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.input-wrapper > label input {
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #f0f3f8;
+    padding-left: 20px;
+    font-size: 18px;
+    color: #495057;
+}
+
+.input-wrapper > label input:focus {
+    background-color: #e4e9f3;
+}
+
+.input-wrapper .fl label {
+    margin-right: 10px;
+}
+
+
+.input-wrapper .fl span {
+    display: inline-block;
+    margin-left: 4px;
+}
+
+
+.input-box .register-box {
+    color: var(--blue-color);
+}
+
+.input-wrapper .error-box {
+    margin-top: 12px;
+    font-size: 20px;
+    color:#ff4757;
+    height: 28px;
+}
+
+.button-box {
+    margin: 20px 0 10px;
+}
+
+.button-box input {
+    width: 100%;
+    height: 42px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: var(--blue-color);
+    color: white;
+    font-size: 20px;
+}
+
+.button-box input:hover {
+    background-color: #1f75d5;
+}

@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --blue-color: #0665d0;
+    --gray-color: #343a40;
+    --background-color: #e8eaf2;
+}
+
+.flex {
+    display: flex;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial,'Noto Sans', 'MicroSoft YaHei';
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.font-center {
+    text-align: center;
+}
+
+.transition {
+    transition: all .2s;
+}
+
+.f20 {
+    font-size: 20px;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.block {
+    display: block;
+}
+
+.none {
+    display: none;
+}
+
+.hidden {
+    overflow: hidden;
+}
